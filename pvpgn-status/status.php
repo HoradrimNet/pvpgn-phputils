@@ -76,10 +76,10 @@ $sidebyside = true;
 
 // Language constants.  Translate into your native language if needed.
 $language = array(
-    'STATUSDETAIL'   => 'PvPGN Server Status',
-    'USERSDETAIL'    => 'Users currently online',
-    'GAMESDETAIL'    => 'Games currently online',
-    'CHANNELSDETAIL' => 'Channels currently online',
+    'STATUSDETAIL'   => 'Server Status:',
+    'USERSDETAIL'    => 'Players logged in:',
+    'GAMESDETAIL'    => 'Games running:',
+    'CHANNELSDETAIL' => 'Channels currently online:',
 
     'Version'        => 'PvPGN version',
     'Uptime'         => 'Uptime',
