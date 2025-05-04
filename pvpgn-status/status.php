@@ -58,7 +58,7 @@ $show = array(
     'STATUS' => true,
     'USERS' => true,
     'GAMES' => true,
-    'CHANNELS' => true,
+    'CHANNELS' => false,
 );
 
 // Display game icons next to users/games online?
@@ -72,7 +72,7 @@ $profilelink_enable = true;
 $profilelink_url = "/pvpgn-stats/index.php";    // URL to pvpgn-stats
 
 // Display the list of users/games/channels side by side rather than in a vertical list?
-$sidebyside = false;
+$sidebyside = true;
 
 // Language constants.  Translate into your native language if needed.
 $language = array(
