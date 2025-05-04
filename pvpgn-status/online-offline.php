@@ -52,11 +52,10 @@
 
 // Language constants.  Translate into your native language if needed.
 $language = array(
-    'pvpgnonline' => 'The PvPGN server is <font color="#00FF00">online</font>.',
-    'pvpgnoffline' => 'The PvPGN server is <font color="#FF0000">offline</font>.',
-    'd2realmonline' => 'The Diablo 2 realm is <font color="#00FF00">online</font> (%d of %d gameservers running).',
-                                                         // This will end up like:  (3 of 5 gameservers running)
-    'd2realmoffline' => 'The Diablo 2 realm is <font color="#FF0000">offline</font>.',
+    'pvpgnonline' => 'Horadrim.net Gateway is <font color="#00FF00">online</font>.',
+    'pvpgnoffline' => 'Horadrim.net Gateway is <font color="#FF0000">offline</font>.',
+    'd2realmonline' => 'Horadrim.net Diablo II realm is <font color="#00FF00">online</font>.',
+    'd2realmoffline' => 'Horadrim.net Diablo II realm is <font color="#FF0000">offline</font>.',
 );
 
 // Connection timeout in seconds.  If the script cannot connect to a server before this timeout,
@@ -66,7 +65,7 @@ $timeout = 1;
 
 $pvpgn = array(
     'check' => true,             // Should we check the status of the PvPGN server? (true or false)
-    'ip' => '127.0.0.1',         // IP of the PvPGN server
+    'ip' => 'horadrim.net',         // IP of the PvPGN server
     'port' => 6112,              // Port of the PvPGN server
 );
 
@@ -75,20 +74,20 @@ $pvpgn = array(
 // ---------------------------------------------------------------------------------------------- //
 
 $d2realm = array(
-    'check' => false,            // Should we check the status of the Diablo 2 realm? (true or false)
+    'check' => true,            // Should we check the status of the Diablo 2 realm? (true or false)
     'd2cs' => array(
-        'ip' => '127.0.0.1',     // d2cs IP address
+        'ip' => 'horadrim.net',     // d2cs IP address
         'port' => 6113,          // d2cs port
     ),
     'd2dbs' => array(
-        'ip' => '127.0.0.1',     // d2dbs IP address
+        'ip' => 'horadrim.net',     // d2dbs IP address
         'port' => 6114,          // d2dbs port
     ),
     'd2gs' => array(
         // The following is a list of your Diablo 2 gameservers.  Add as many entries
         // as you need, with a comma (,) after each one.  Make sure you have
         // quotes '' around each IP address.
-        '127.0.0.1',
+        'horadrim.net',
     ),
 );
 
